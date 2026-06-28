@@ -1,0 +1,25 @@
+{
+    "name": "mailwritter/mailwritter",
+    "description": "Libreria orientada a objetos en PHP 8 para construir emails HTML robustos y compatibles con clientes de correo estrictos.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MailWritter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MailWritter\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
